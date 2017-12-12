@@ -1,0 +1,29 @@
+# Overview of Basic Design
+Working copy
+
+Need to decide on which version we will be building for v3.5, v5
+
+Data Base
+	- Table: Spells
+		- Columns: Name, Range, Components, Duration, Description, Higher Lvls, Lvl, School
+	- Table: Classes
+		- Columns: Name, Hit Die, Armor Prof, Weapon Prof, Tools, Skills, Saving Throws, 
+	- Table: Races
+	- Table: Leveling Table (can this be generic or do we need a DB table for each class?
+	- Table: Items
+	- Table: Armor
+	- Table: Weapons
+	- Table: NPCs
+	- Table: Features
+		- Columns: Name, Range, Components, Duration, Description, Higher Lvls, Lvl, School
+		
+
+Features
+	- View Ports: SVP 320-699px, MVP 700-979px, LVP 980-1400px
+	- Adaptive tables based on viewport
+	- Helpful links like D&D wiki
+	- Spell, class, race, mob (DM only), location (DM only) lookups
+	- Maps (if allowed by law)
+	- time/distance tracker
+	
+	
