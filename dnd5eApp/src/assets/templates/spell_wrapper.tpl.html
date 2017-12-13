@@ -1,0 +1,38 @@
+<h1>{{spellLevel}}</h1>
+<article class="article_wrapper"
+        *ngFor="let spell of spells">
+    <h2 class="article_header">{{spellName}}</h2>
+    <ul class="spellDeatList">
+        <li>
+            <em>{{spellSchool}}</em>
+        </li>
+        <li>
+            <strong>Casting Time:</strong>
+            {{castTimeDesc}}
+        </li>
+        <li>
+            <strong>Range:</strong>
+            {{rangeDesc}}
+        </li>
+        <li>
+            <strong>Components:</strong>
+            {{compDesc}}
+        </li>
+        <li>
+            <strong>Duration:</strong>
+                {{durationDesc}}
+        </li>
+        <li>
+            <dl>
+                <dt>Description:</dt>
+                <dd *ngFor="let spell.desc of desc">{{descDesc}}</dd>
+            </dl>
+        </li>
+        <li *ngIf="highLvl">
+            <dl>
+                <dt>At Higher Levels:</dt>
+                <dd *ngFor="let spell.highLvl of highLvl">{{atHigherLvl}}</dd>
+            </dl>
+        </li>
+    </ul>
+</article>

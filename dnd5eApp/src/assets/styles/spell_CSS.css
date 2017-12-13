@@ -1,0 +1,26 @@
+ul, dl {
+	display: initial;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin-bottom: 10px;
+}
+
+h1 {
+	    border-bottom: black 1px solid;
+}
+
+.article_wrapper {
+	
+}
+
+.article_header {
+	margin: 0px;
+    text-decoration: underline;
+}
+
+.spellDeatList {}
